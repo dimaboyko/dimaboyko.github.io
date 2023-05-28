@@ -78,7 +78,7 @@ Version: 1.2
   }
 
   section{
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
 
@@ -260,6 +260,9 @@ section.hero p.copyright{
 
 .social-link{
   padding: 0px 5px;
+  
+  width: 200px;
+  height: 400px;
 }
 
 .social-link.active, .social-link.hover {
@@ -286,85 +289,16 @@ section.hero.position-fixed {
 /* home section  */
 
 section#home {
-  padding: 180px 0px;
+  padding-top: 80px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px
 }
 
 
 
 
-/* About Section  */
-
-.client-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.open-description{
-  color: var(--light-text-color);
-}
-
-/* testimonial section  */
-
-p.testimonial-location{
-  color: var(--accent-color);
-}
-
-.card-body {
-  padding: 0px;
-}
-
-.card {
-
-  --bs-card-border-width: 0px;
-  --bs-card-border-color: none;
-  --bs-card-border-radius: 0;
-  --bs-card-bg: transparent;
-
-}
-
-p.card-text{
-  padding-bottom: 12px;
-}
-
-
-/* skill section  */
-
-div#progressbar-tooltip-id {
-
-  overflow: hidden;
-}
-
-.ab-progress {
-  margin-bottom: 36px;
-}
-.ab-progress .progress-bar-wrap {
-  height: var(--progressbar-height,6px);
-  width: 600px;
-  background: #E5E5E5;
-}
-
-.ab-progress .ab-progress-bar {
-  height: var(--progressbar-height,6px);
-  background: var(--accent-color);
-  border-radius: var(--progressbar-radius,6px);
-}
-
-.ab-progress .progress-indicator-inner {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: var(--body-text-color);
-  background: transparent;
-  transform: translateX(-250%);
-}
-
-.ab-progress .down-arrow {
-  border-top: 0px solid var(--progress-indicator-background,var(--clr-dark));
-}
-
+/*
 
 @media only screen and (max-width: 580px) {
 
@@ -380,69 +314,6 @@ div#progressbar-tooltip-id {
 }
 
 
-/* portfolio section  */
-
-button.filter-button {
-  border: none;
-  background: transparent;
-  font-size: 20px;
-  color: var(--light-text-color);
-  padding-right: 22px;
-}
-
-button.filter-button.active {
-  color: var(--accent-color);
-}
-
-button.filter-button:hover {
-  color: var(--accent-color);
-}
-
-img.portfolio-img{
-  width: -webkit-fill-available;
-}
-
-.item {
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  background-color: #222;
-}
-
-.item .description {
-  width: 80%;
-  position: absolute;
-  bottom: -60px;
-  left: 64px;
-  z-index: 5;
-  color: #fff;
-  transition: all .7s ease-in-out;
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
-}
-
-img{  
-  opacity: 1;
-  transition: 0.3s ease-in;
-}
-.item:hover img{
-  opacity: 0.6;
-}
-
-.item:hover .description {    
-  transform: translateY(-100px);
-}
-
-@media only screen and (max-width: 580px) {
-
-  .item {
-    margin-left: 40px;
-
-  }
-
-}
 
 
 /* blog section  */
@@ -498,51 +369,9 @@ article.blog-article {
 }
 
 
-/* contact section  */
 
-.contact-list{
-  border: 1px solid #F26649;
-  border-radius: 15px;
-  width: 237px;
-  height: 145px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 12px;
-  padding: 0px;
-}
 
-p.contact-paragraph{
-margin: 0px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: var(--body-text-color);
-}
 
-.form-control {
-  border: 1px solid transparent;
-  height: 60px;
-}
-
-@media only screen and (max-width: 900px) {
-
-  .contact-list{
-    border: 1px solid #F26649;
-    border-radius: 15px;
-    width: 237px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 12px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-    padding: 0px;
-
-  }
-
-}
 
 
 
